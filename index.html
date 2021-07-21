@@ -8,16 +8,24 @@
 <body>
     <header class="header">
       <img src="images/trybewarts-header-logo.svg" alt="logo-trybewarts" class="trybewarts-header-logo">
-      <h1 id="trybewarts-header-title">TrybeWarts</h1>
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
       <form class="trybewarts-login">
-        <label for="login">
-          <input type="text" placeholder="Login" id="login">
-        </label>
-        <label for="senha">
-          <input type="text" placeholder="Senha" id="senha">
-        </label>
+        <input 
+          type="email" 
+          placeholder="Login" 
+          id="login">
+          <!-- pattern=".+@globex\.com" 
+          oninvalid="alert('Login ou senha inválidos.')" required -->
+        <input 
+          type="password"
+          placeholder="Senha"
+          id="senha">
+          <!-- pattern="[0-9]{6}"
+          maxlength="6"
+          oninvalid="alert('Login ou senha inválidos.')" required -->
         <button id="btn" type="button">Logar</button>
       </form>
     </header>
+    <script src="script.js"></script>
 </body>
 </html>
