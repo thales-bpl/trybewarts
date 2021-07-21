@@ -46,12 +46,19 @@ hr {
   margin: 2px;
 }
 
-#section-radio {
+#section-2 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 #label-family {
   display: flex;
   justify-content: center;
+  max-width: 100px;
+}
+
+#label-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
 }
