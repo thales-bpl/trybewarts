@@ -16,10 +16,33 @@
       </form>
     </header>
     <main>
-      <form id='evaluation-form'>
-        <input
+      <form id="evaluation-form">
+        <section id="section-1">
+          <div>
+            <input id="input-name" placeholder="Nome">
+            <input id="input-lastname" placeholder="Sobrenome">
+          </div>
+          <div>
+            <input id="input-email" placeholder="Email">
+            <label for="house">Casa: </label>
+            <select id="house">
+              <option id="gitnoria-house">Gitnória</option>
+              <option id="reactpuff-house">Reactpuff</option>
+              <option id="corvinode-house">Corvinode</option>
+              <option id="pytherina-house">Pytherina</option>
+          </div>
+          </select>
+        </section>
+        <hr>
+        <section id='section-radio'>
+          <label id="label-family">Qual sua família?</label>
+            <input type="radio" name="family" id="Frontend" value="Frontend">Frontend</input>
+            <input type="radio" name="family" id="Backend" value="Backend">Backend</input>
+            <input type="radio" name="family" id="FullStack" value="FullStack">FullStack</input>
+        </section>
+
       </form>
-      <img id='trybewarts-forms-logo' src='images/trybewarts-colored.svg' alt='logo-da-escola'> 
+      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo-da-escola"> 
     </main>
     <script src="script.js"></script>
 </body>
